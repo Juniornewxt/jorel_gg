@@ -4,6 +4,8 @@ Este é um projeto pessoal em fase inicial de desenvolvimento, **feito utilizand
 
 Funciona um pouco como um "agente", ou seja, ele não apenas responde a perguntas, mas pode usar ferramentas para mexer no sistema operacional, criar arquivos, monitorar logs e conectar com outros serviços via MCP (Model Context Protocol).
 
+<img width="538" height="747" alt="image" src="https://github.com/user-attachments/assets/b43b7ad2-aeb0-4cc6-9268-9d18ebf68099" />
+
 ## Como Configurar (config.json)
 
 O arquivo `config.json` controla tudo. Se não existir, o Jorel cria um padrão ao iniciar.
