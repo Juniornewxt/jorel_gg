@@ -4,8 +4,7 @@ Este é um projeto pessoal em fase inicial de desenvolvimento, **feito utilizand
 
 Funciona um pouco como um "agente", ou seja, ele não apenas responde a perguntas, mas pode usar ferramentas para mexer no sistema operacional, criar arquivos, monitorar logs e conectar com outros serviços via MCP (Model Context Protocol).
 
-<img width="531" height="736" alt="image" src="https://github.com/user-attachments/assets/1bd117ad-781c-4a12-a076-fe384d2def72" />
-
+  <img width="533" height="741" alt="image" src="https://github.com/user-attachments/assets/37d2469d-a86a-429d-8a0e-19266e4cf1b5" />
 
 ## Como Configurar (config.json)
 
