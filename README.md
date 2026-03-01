@@ -6,6 +6,10 @@ Funciona um pouco como um "agente", ou seja, ele não apenas responde a pergunta
 
   <img width="533" height="741" alt="image" src="https://github.com/user-attachments/assets/37d2469d-a86a-429d-8a0e-19266e4cf1b5" />
 
+  
+https://github.com/user-attachments/assets/385bb8de-c2d7-4c50-a25b-68a43d77f785
+
+## Se não quiser usar a tela de configurações você pode editar o (config.json)
 ## Como Configurar (config.json)
 
 O arquivo `config.json` controla tudo. Se não existir, o Jorel cria um padrão ao iniciar.
