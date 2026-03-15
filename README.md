@@ -8,7 +8,7 @@ Download https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2
 
   <img width="533" height="741" alt="image" src="https://github.com/user-attachments/assets/37d2469d-a86a-429d-8a0e-19266e4cf1b5" />
 
-  Jorel GG é totalmente configuravel via tela, veja:
+## Jorel GG é totalmente configuravel via tela, veja:
   
 https://github.com/user-attachments/assets/385bb8de-c2d7-4c50-a25b-68a43d77f785
 
