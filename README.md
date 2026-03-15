@@ -4,8 +4,11 @@ Este é um projeto pessoal em fase inicial de desenvolvimento, **feito utilizand
 
 Funciona um pouco como um "agente", ou seja, ele não apenas responde a perguntas, mas pode usar ferramentas para mexer no sistema operacional, criar arquivos, monitorar logs e conectar com outros serviços via MCP (Model Context Protocol).
 
+Download https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2
+
   <img width="533" height="741" alt="image" src="https://github.com/user-attachments/assets/37d2469d-a86a-429d-8a0e-19266e4cf1b5" />
 
+  Jorel GG é totalmente configuravel via tela, veja:
   
 https://github.com/user-attachments/assets/385bb8de-c2d7-4c50-a25b-68a43d77f785
 
@@ -120,6 +123,26 @@ Aqui estão alguns exemplos de comandos que você pode pedir para ele:
 **APIs e MCP (Interação com serviços externos)**
 *   Você pode adicionar a URL de alguma API que o Jorel pode acessar. Ensine ele no prompt, por exemplo: "se o usuário quiser saber sobre piada, vá para 'piada': path_parameters='random_joke'".
 *   Conecte a servidores MCP do docker ou crie seus próprios: "Use sua imaginação, talvez um servidor MCP para conectar via SSH e realizar comandos, ou usar servidores existentes para coletar dados de APIs, etc."
+
+# V1 Beta 1.2 15/03/2026 (Novas funcionalidades/correções/melhorias)
+*   Agora você pode solicitar que Jorel gere cortes do Youtube.
+*   Agora ficou mais simples vincular ao Whatsapp e impedir que qualquer pessoa envie mensagem para o Jorel.
+*   Jorel agora é capaz de criar subagentes para realizar tarefas em segundo plano ligando o parâmetro usar_orquestrador.
+*   Modo cli, agora existe um parâmetro chamado modo_cli, se habilitado Jorel pode ser controlado via terminal.
+*   Foi adicionando o parâmetro modelo_auto_download, que baixa automaticamente um modelo local para ser usado no llamacpp.
+*   Foi adicionado um parâmetro novo filtro_ferramentas, quando ligado Jorel tenta filtra uso de ferramentas, não enviando todas a cada acionamento do modelo, a ideia é tentar reduzir o consumo de token.
+*   Agora o parâmetro memorizar_documento_vdb se ligado, além da função atual, também salvará o histórico da conversa no banco vetorial reduzindo o consumo de tokens. "Necessário baixar um modelo embed além do modelo de chat, caso esteja usando o llamacpp".
+*   Adicionado hora nas mensagens, e corrigido problema que apagava a origem da mensagem Whatsapp/Telegram ao reiniciar Jorel.
+*   Adicionado total de tokens usados/ tokens por segundo.
+
+Faça download do Jorel GG no link abaixo:
+https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2
+    
+Disponibilizei para download Jorel com pacote com llamacpp pre configurado, essas versões devem baixar automaticamente o qween 3.5.
+
+GPU https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2nvdia
+
+CPU https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2cpu
 
 ## ⚠️ Aviso Importante
 
