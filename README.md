@@ -1,10 +1,12 @@
 # Jorel GG (Experimental)
 
-Este é um projeto pessoal em fase inicial de desenvolvimento, **feito utilizando Go (Golang) e Wails**. O Jorel é um assistente virtual capaz de executar tarefas no computador, interagir com APIs e processar documentos usando IA (Gemini, OpenAI, Ollama ou LlamaCPP).
+Este é um projeto pessoal em fase inicial de desenvolvimento, **feito utilizando Go (Golang) e Wails**. O Jorel é um assistente virtual capaz de executar tarefas no computador, interagir com APIs e processar documentos usando IA (Gemini, OpenAI, OpenRouter, GrokAI, Ollama ou LlamaCPP).
 
 Funciona um pouco como um "agente", ou seja, ele não apenas responde a perguntas, mas pode usar ferramentas para mexer no sistema operacional, criar arquivos, monitorar logs e conectar com outros serviços via MCP (Model Context Protocol).
 
-Download https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2
+Download Windows https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3
+
+Download Linux https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3-Linux
 
   <img width="533" height="741" alt="image" src="https://github.com/user-attachments/assets/37d2469d-a86a-429d-8a0e-19266e4cf1b5" />
 
@@ -135,14 +137,22 @@ Aqui estão alguns exemplos de comandos que você pode pedir para ele:
 *   Adicionado hora nas mensagens, e corrigido problema que apagava a origem da mensagem Whatsapp/Telegram ao reiniciar Jorel.
 *   Adicionado total de tokens usados/ tokens por segundo.
 
-Faça download do Jorel GG no link abaixo:
-https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2
+# V1 Beta 1.3 20/03/2026 (Novas funcionalidades/correções/melhorias)
+*  Adicionado tela para criar/editar prompt.txt de personalidade do Jorel
+*  Adicionado responder apenas quando mencionado, com @ no whatsapp e telegram em grupos.
+*  Adicionado suporte aos provedores GrokAI e OpenRouter (OpenRouter com llm "nvidia/nemotron-3-super-120b-a12b:free" se torna padrão do Jorel, mas você pode alterar via tela de configurações ou config.json )
+*  Corrigido erro de mensagens de alerta que não somem.
+*  Corrigido erro de parâmetros que não apareciam na tela de configuração.
+*  Corrigido erro de download automático de llm local onde Jorel era liberado antes do download terminar.
+
+Faça download do Jorel GG no link abaixo(Windows):
+https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3
     
 Disponibilizei para download Jorel com pacote com llamacpp pre configurado, essas versões devem baixar automaticamente o qween 3.5.
 
-GPU https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2nvdia
+GPU https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3nvdia
 
-CPU https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.2cpu
+CPU https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3cpu
 
 ## ⚠️ Aviso Importante
 
