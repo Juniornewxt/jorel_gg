@@ -8,7 +8,7 @@ Download Windows https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.
 
 Download Linux https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3-Linux
 
-  <img width="533" height="741" alt="image" src="https://github.com/user-attachments/assets/37d2469d-a86a-429d-8a0e-19266e4cf1b5" />
+<img width="690" height="1002" alt="image" src="https://github.com/user-attachments/assets/b26dcde7-07fb-404d-a4d8-5253f3a439eb" />
 
 ## Jorel GG é totalmente configuravel via tela, veja:
   
