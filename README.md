@@ -4,11 +4,12 @@ Este é um projeto pessoal em fase inicial de desenvolvimento, **feito utilizand
 
 Funciona um pouco como um "agente", ou seja, ele não apenas responde a perguntas, mas pode usar ferramentas para mexer no sistema operacional, criar arquivos, monitorar logs e conectar com outros serviços via MCP (Model Context Protocol).
 
-Download Windows https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3
+Download Windows https://github.com/Juniornewxt/jorel_gg/releases/download/v1.0-beta.1.4/Jorel_GG_29032026b1_4.zip
 
 Download Linux https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3-Linux
 
-<img width="690" height="1002" alt="image" src="https://github.com/user-attachments/assets/b26dcde7-07fb-404d-a4d8-5253f3a439eb" />
+<img width="685" height="991" alt="image" src="https://github.com/user-attachments/assets/6701f3db-d668-4585-9329-eadd22deba60" />
+
 
 ## Jorel GG é totalmente configuravel via tela, veja:
   
@@ -145,8 +146,37 @@ Aqui estão alguns exemplos de comandos que você pode pedir para ele:
 *  Corrigido erro de parâmetros que não apareciam na tela de configuração.
 *  Corrigido erro de download automático de llm local onde Jorel era liberado antes do download terminar.
 
+# V1 Beta 1.4 29/03/2026 (Novas funcionalidades)
+*  Agora o Jorel GG pode trabalhar com skills (agentes especialistas).
+    Para adicionar uma skill, siga estas instruções:
+    
+    **Localmente**
+    
+    Crie a pasta skill ao lado do executável do Jorel (se ela ainda não existir).
+    Coloque os arquivos da skill dentro dessa pasta.
+    
+    **Via Git ou NPM**
+    
+    Se a skill estiver disponível em um repositório Git ou como pacote NPM, você pode solicitar o download diretamente no chat.
+    Use o comando:
+    /importar_skill
+    
+    Exemplo:
+    /importar_skill npx @vudovn/ag-kit init
+    
+    **Ativar ou desativar**
+    
+    Após o download, uma nova aba Skill aparecerá na interface do Jorel, onde você pode ativar ou desativar cada skill.
+    Também é possível controlar as skills por meio de comandos no chat:
+    Para ativar: /skill nome-da-skill
+    Exemplo: /skill explorer-agent
+    Para desativar: /skill off
+    Assim, você pode facilmente expandir as funcionalidades do Jorel com habilidades especializadas, seja adicionando arquivos locais ou baixando pacotes remotos.
+    
+    Também transformei o balão de pensamento/digitando "..." em um botão, que ao ser clicado, mostra o que está acontecendo, isso é útil para acompanhar quando Jorel estiver fazendo muita coisa, quais comandos ele está executando, sem precisar ficar olhando o log.
+
 Faça download do Jorel GG no link abaixo(Windows):
-https://github.com/Juniornewxt/jorel_gg/releases/tag/v1.0-beta.1.3
+https://github.com/Juniornewxt/jorel_gg/releases/download/v1.0-beta.1.4/Jorel_GG_29032026b1_4.zip
     
 Disponibilizei para download Jorel com pacote com llamacpp pre configurado, essas versões devem baixar automaticamente o qween 3.5.
 
